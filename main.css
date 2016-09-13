@@ -1,3 +1,15 @@
 * { 
 	font-family: 'Roboto', sans-serif;
 }
+
+header {
+	margin-top: 35px;
+	width: 100%
+	background-color: grey;
+}
+
+.logo {
+	height: 75px;
+	margin-right: auto;
+	margin-left: auto;
+}
