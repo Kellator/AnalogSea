@@ -8,11 +8,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
-<header>
-	<img src="images/AnalogSea_logo.png" class="logo">
-</header>
-
 <body>
+	<header>
+		<div class="logo">
+			<img src="images/AnalogSea_logo.png" class="logo_img" alt="AnalogSea logo image">
+		</div>
+		
+	</header>
 
 	<form class="sign_up"  action="/signup/"  method="post">
 		<h1>Sign Up</h1>
@@ -27,8 +29,8 @@
 			<a href="/forgot-passowrd/new">Forgot password?</a>
 		</fieldset>
 	</form>
-
-	<p>Already have an account? </p> <a href="/login">Log In</a>
-
+	<section class="log_in">
+		<p>Already have an account? </p> <span><a href="/login">Log In</a></span>
+	</section>
 </body>
 </html>

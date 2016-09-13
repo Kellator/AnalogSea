@@ -1,15 +1,100 @@
 * { 
 	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
 }
 
+html, body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+body {
+	background-color: grey;
+}
 header {
 	margin-top: 35px;
 	width: 100%
-	background-color: grey;
 }
 
 .logo {
-	height: 75px;
 	margin-right: auto;
 	margin-left: auto;
+	height: 35px;
+	width: 75px;
+	position: relative;
+
+}
+
+.logo_img {
+	height: 35px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.sign_up {
+	background-color: white;
+	padding-right: 40px;
+	padding-left: 40px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.sign_up>h1 {
+	text-align: center;
+	padding-top: 40px;
+}
+
+label, button, .sign_up a {
+	display: block;
+	padding: 15px;
+}
+
+fieldset {
+	border: 0;
+	font-size: 17px;
+}
+
+input {
+	width: 320px;
+	height: 55px;
+	padding: 15px;
+	border: 2px solid grey;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+button {
+	margin-left: auto;
+	margin-right: auto;
+	width: 320px;
+	height: 55px;
+	padding: 15px;
+	border: 2px solid grey;
+	margin-top: 15px;
+	font-size: 17px;
+}
+
+.sign_up a {
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.log_in{
+	width: 320px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	text-align: center;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 15px;
 }
