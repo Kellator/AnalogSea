@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-	background-color: grey;
+	background-color: dodgerblue;
 }
 header {
 	margin-top: 35px;
@@ -40,11 +40,15 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
+	border-radius: 3px;
 }
 
 .sign_up>h1 {
 	text-align: center;
 	padding-top: 40px;
+	font-weight: lighter;
+	color: dimgrey;
+	font-size: 36px;
 }
 
 label, button, .sign_up a {
@@ -54,6 +58,7 @@ label, button, .sign_up a {
 
 fieldset {
 	border: 0;
+	border-radius: 3px;
 	font-size: 17px;
 }
 
@@ -61,11 +66,13 @@ input {
 	width: 320px;
 	height: 55px;
 	padding: 15px;
-	border: 2px solid grey;
+	border: 2px solid gainsboro;
+	border-radius: 3px;
 	margin-right: auto;
 	margin-left: auto;
 	font-size: 17px;
 	font-weight: bold;
+	background-color: ghostwhite;
 }
 
 button {
@@ -74,15 +81,19 @@ button {
 	width: 320px;
 	height: 55px;
 	padding: 15px;
-	border: 2px solid grey;
+	border: 2px solid #82D682;
+	border-radius: 3px;
 	margin-top: 15px;
-	font-size: 17px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	background-color: #82D682;
 }
 
 .sign_up a {
 	text-align: center;
-	font-weight: bold;
 	font-size: 15px;
+	color: grey;
 }
 
 .log_in{
@@ -97,4 +108,9 @@ p {
 	display: inline-block;
 	font-weight: bold;
 	font-size: 15px;
+	color: white;
+}
+
+.log_in a {
+	color: white;
 }
