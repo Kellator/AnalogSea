@@ -21,7 +21,7 @@ header {
 	margin-right: auto;
 	margin-left: auto;
 	height: 35px;
-	width: 75px;
+	width: 166px;
 	position: relative;
 
 }
@@ -61,6 +61,7 @@ fieldset {
 	border-radius: 3px;
 	font-size: 17px;
 	position: relative;
+	padding: 0;
 }
 
 input {
@@ -120,4 +121,9 @@ button {
 button:hover {
 	background-image: none;
 	background-color: forestgreen;
+}
+
+label {
+	padding-left: 0;
+	padding-bottom: 15px;
 }
